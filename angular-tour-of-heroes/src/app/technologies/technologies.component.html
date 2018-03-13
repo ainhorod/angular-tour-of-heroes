@@ -1,0 +1,10 @@
+<h2>My technologies</h2>
+<ul class="technologies">
+  <li *ngFor="let technology of technologies"
+    [class.selected]="technology === selectedTechnology"
+    (click)="onSelect(technology)">
+    <span class="badge">{{technology.id}}</span> {{technology.name}}
+  </li>
+</ul>
+
+<app-technology-detail [technology]="selectedTechnology"></app-technology-detail>
