@@ -11,7 +11,6 @@ h1 {
   }
   body {
     margin: 2em;
-    
   }
   body, input[text], button {
     color: #888;
@@ -20,5 +19,4 @@ h1 {
   /* everywhere else */
   * {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f9dadf;
   }
